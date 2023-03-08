@@ -32,4 +32,6 @@ fn main() {
             }
         }
     }
+    println!("Please press enter to leave the game.");
+    io::stdin().read_line(&mut String::new()).unwrap();
 }
